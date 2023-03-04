@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styl.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Barre de navigation -->
+    <nav>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">À propos</a></li>
+        <li><a href="#">Produits</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <p><strong>h</strong>halika fays tal</p>
+    <img src="01.jpg" alt="" />
+
+    <!-- Diaporama de héros -->
+    <div id="hero-slider">
+      <div class="slide">
+        <img src="image1.jpg" alt="Diapositive 1" />
+        <div class="caption">Titre de la diapositive 1</div>
+      </div>
+      <div class="slide">
+        <img src="image2.jpg" alt="Diapositive 2" />
+        <div class="caption">Titre de la diapositive 2</div>
+      </div>
+      <div class="slide">
+        <img src="image3.jpg" alt="Diapositive 3" />
+        <div class="caption">Titre de la diapositive 3</div>
+      </div>
+    </div>
+
+    <!-- Contenu de base -->
+    <main>
+      <h1>Bienvenue sur notre site Web</h1>
+      <p>Voici un exemple de contenu de base pour notre site Web.</p>
+    </main>
+    <!-- Formulaire de contact -->
+    <form id="contact-form">
+      <label for="name">Nom :</label><br />
+      <input type="text" id="name" name="name" /><br />
+      <label for="email">Adresse email :</label><br />
+      <input type="email" id="email" name="email" /><br />
+      <label for="message">Message :</label><br />
+      <textarea id="message" name="message"></textarea><br />
+      <button type="submit">Envoyer</button>
+    </form>
+
+    <!-- Message de confirmation -->
+    <div id="confirmation-message">
+      Votre message a été envoyé avec succès !
+    </div>
+    <script src="jquery.js"></script>
+    <script>
+      $(function () {
+        alert("");
+      });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
